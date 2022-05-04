@@ -909,7 +909,7 @@ class PlayState extends MusicBeatState
 		timeBar.alpha = 0;
 		timeBar.visible = showTime;
 		add(timeBar);
-		add(timeTxt);
+		var creditTxt:FlxText = new FlxText(4,healthBarBG.y + 20,0,("Port By Ink Demon"), 24);
 		timeBarBG.sprTracker = timeBar;
 
 		strumLineNotes = new FlxTypedGroup<StrumNote>();
